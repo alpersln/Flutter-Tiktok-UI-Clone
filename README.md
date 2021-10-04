@@ -1,4 +1,6 @@
 # tiktok_ui_clone
+![Android Emulator - Pixel_3a_XL_API_30_5554 2021-10-04 18-06-29 (2)](https://user-images.githubusercontent.com/80425427/135878165-aff77095-14d1-47d2-a104-6227deca0da9.gif)
+
 
 A new Flutter project.
 
