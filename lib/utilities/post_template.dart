@@ -38,7 +38,7 @@ class PostTemplate extends StatelessWidget {
                 children: [
                   Text(
                     "@" + username,
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                   ),
                   SizedBox(
                     height: 8,
@@ -48,12 +48,14 @@ class PostTemplate extends StatelessWidget {
                       children: [
                         TextSpan(
                             text: videoDescription,
-                            style: TextStyle(color: Colors.white)),
+                            style:
+                                TextStyle(color: Colors.white, fontSize: 16)),
                         TextSpan(
                             text: videoHashtag,
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
-                                color: Colors.white))
+                                color: Colors.white,
+                                fontSize: 16))
                       ],
                     ),
                   )
@@ -62,7 +64,7 @@ class PostTemplate extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.all(14.0),
+            padding: const EdgeInsets.all(18.0),
             child: Container(
               alignment: Alignment(1, 1),
               child: Column(
