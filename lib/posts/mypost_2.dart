@@ -5,14 +5,20 @@ class MyPost2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return PostTemplate(
-        username: "elfo",
-        videoHashtag: "#dailydose#ofinternet",
-        videoDescription: "trend machine ",
-        numberOfShares: "234",
-        numberOfLikes: "56.3k",
-        numberOfComments: "536",
-        userPost: Container(
-          color: Colors.orangeAccent,
-        ));
+      username: "elfo",
+      videoHashtag: "#dailydose#of#internet",
+      videoDescription: "never give up ",
+      numberOfShares: "234",
+      numberOfLikes: "56.3k",
+      numberOfComments: "536",
+      userPost: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/halter.gif'),
+            fit: BoxFit.fill,
+          ),
+        ),
+      ),
+    );
   }
 }
